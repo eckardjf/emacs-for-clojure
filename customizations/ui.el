@@ -12,8 +12,8 @@
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
-;; (when (fboundp 'tool-bar-mode)
-;;   (tool-bar-mode -1))
+(when (fboundp 'tool-bar-mode)
+  (tool-bar-mode -1))
 
 ;; Don't show native OS scroll bars for buffers because they're redundant
 (when (fboundp 'scroll-bar-mode)
@@ -26,15 +26,18 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'tomorrow-night-bright t)
+(load-theme 'tomorrow-night-eighties t)
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 140)
 
+;; use Source Code Pro as the default font
+(set-default-font "Source Code Pro 12")
+
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
-;; (setq initial-frame-alist '((top . 0) (left . 0) (width . 177) (height . 53)))
+(setq initial-frame-alist '((top . 50) (left . 50) (width . 222) (height . 55)))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
@@ -67,3 +70,7 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; change cursor to white bar
+(setq-default cursor-type 'bar)
+(set-cursor-color "#ffffff")

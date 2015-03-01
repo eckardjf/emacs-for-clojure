@@ -32,7 +32,7 @@
 (set-face-attribute 'default nil :height 140)
 
 ;; use Source Code Pro as the default font
-(set-default-font "Source Code Pro 12")
+(set-default-font "Source Code Pro 11")
 
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height

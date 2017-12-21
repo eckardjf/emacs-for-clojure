@@ -66,7 +66,16 @@
     tagedit
 
     ;; git integration
-    magit))
+    magit
+
+    ;; company mode autocomplete
+    company
+
+    ;; nord theme
+    nord-theme
+
+    neotree
+    ))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -130,3 +139,18 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("5c0f12a63fbc33bb56ad98bd27223b5a92397386c55317694e416be7c11679a2" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

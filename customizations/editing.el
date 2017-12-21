@@ -1,8 +1,11 @@
 ;; Customizations relating to editing a buffer.
 
+(add-hook 'after-init-hook 'global-company-mode)
+(global-set-key (kbd "TAB") 'company-complete)
+
 ;; Key binding to use "hippie expand" for text autocompletion
 ;; http://www.emacswiki.org/emacs/HippieExpand
-(global-set-key (kbd "TAB") 'hippie-expand)
+;;(global-set-key (kbd "TAB") 'hippie-expand)
 
 ;; Lisp-friendly hippie expand
 (setq hippie-expand-try-functions-list
@@ -71,3 +74,6 @@
     (quit nil)))
 
 (setq electric-indent-mode +1)
+
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)

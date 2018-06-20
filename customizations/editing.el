@@ -77,5 +77,6 @@
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
+(setq neo-autorefresh nil)
 
 (setq mouse-wheel-progressive-speed nil)

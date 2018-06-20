@@ -460,6 +460,9 @@
     `(avy-lead-face-1 ((,class (:background ,nord3 :foreground ,nord5))))
     `(avy-lead-face-2 ((,class (:background ,nord15 :foreground ,nord5))))
 
+    ;; Cider
+    `(cider-fringe-good-face ((,class (:foreground ,nord15))))
+
     ;; > Company
     `(company-echo-common ((,class (:foreground ,nord0 :background ,nord4))))
     `(company-preview ((,class (:foreground ,nord4 :background ,nord10))))

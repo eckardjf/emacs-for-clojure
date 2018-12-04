@@ -75,6 +75,10 @@
     nord-theme
 
     neotree
+
+    which-key
+
+    expand-region
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
@@ -147,7 +151,10 @@
  '(coffee-tab-width 2)
  '(custom-safe-themes
    (quote
-    ("5c0f12a63fbc33bb56ad98bd27223b5a92397386c55317694e416be7c11679a2" default))))
+    ("13fc4d7a2d14f77ffa1e2143bebc32be00d0b8538bc6dabd86d5e75744ff9f29" "5c0f12a63fbc33bb56ad98bd27223b5a92397386c55317694e416be7c11679a2" default)))
+ '(package-selected-packages
+   (quote
+    (expand-region which-key lua-mode tagedit smex rainbow-delimiters projectile paredit nord-theme neotree magit ido-ubiquitous exec-path-from-shell company clojure-mode-extra-font-locking cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

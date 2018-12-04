@@ -80,3 +80,9 @@
 (setq neo-autorefresh nil)
 
 (setq mouse-wheel-progressive-speed nil)
+
+(require 'expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
+
+(require 'which-key)
+(which-key-mode)

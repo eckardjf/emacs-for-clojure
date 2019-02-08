@@ -86,3 +86,5 @@
 
 (require 'which-key)
 (which-key-mode)
+
+(global-set-key (kbd "C-c o") 'occur)

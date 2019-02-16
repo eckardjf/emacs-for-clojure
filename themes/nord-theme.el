@@ -47,13 +47,13 @@
   The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
-(defcustom nord-comment-brightness 0
+(defcustom nord-comment-brightness 10
   "Allows to define a custom comment color brightness with percentage adjustments from 0% - 20%.
   The value must be greater or equal to 0 and less or equal to 20, otherwise the default 'nord3' color is used."
   :type 'integer
   :group 'nord)
 
-(defcustom nord-region-highlight nil
+(defcustom nord-region-highlight "frost"
   "Allows to set a region highlight style based on the Nord components.
   Valid styles are
     - 'snowstorm' - Uses 'nord0' as foreground- and 'nord4' as background color
@@ -461,7 +461,7 @@
     `(avy-lead-face-2 ((,class (:background ,nord15 :foreground ,nord5))))
 
     ;; Cider
-    `(cider-fringe-good-face ((,class (:foreground ,nord15))))
+    `(cider-fringe-good-face ((,class (:foreground ,nord7))))
 
     ;; > Company
     `(company-echo-common ((,class (:foreground ,nord0 :background ,nord4))))

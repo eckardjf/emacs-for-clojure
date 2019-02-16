@@ -11,5 +11,5 @@
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
 
-(setq scheme-program-name "/Applications/Scheme.app/Contents/Resources/mit-scheme")
+(setq scheme-program-name "/usr/local/bin/scheme")
 (require 'xscheme)

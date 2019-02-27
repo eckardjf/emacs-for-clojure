@@ -88,3 +88,5 @@
 (which-key-mode)
 
 (global-set-key (kbd "C-c o") 'occur)
+
+(global-set-key (kbd "C-x g") 'magit-status)

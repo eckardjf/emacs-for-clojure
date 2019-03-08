@@ -72,5 +72,5 @@
 (setq ring-bell-function 'ignore)
 
 ;; change cursor to white bar
-(setq-default cursor-type 'bar)
-(set-cursor-color "#ffffff")
+;(setq-default cursor-type 'bar)
+;;(set-cursor-color "#ffffff")

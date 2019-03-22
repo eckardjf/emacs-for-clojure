@@ -87,3 +87,5 @@
 	"(do (require 'figwheel-sidecar.repl-api)
          (figwheel-sidecar.repl-api/start-figwheel!)
          (figwheel-sidecar.repl-api/cljs-repl))")
+
+(setq cider-default-cljs-repl 'figwheel)

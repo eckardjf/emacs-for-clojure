@@ -79,6 +79,8 @@
     which-key
 
     expand-region
+
+    multiple-cursors
     ))
 
 ;; On OS X, an Emacs instance started from the graphical user
